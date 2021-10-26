@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Row, Col, FormGroup, Label, Input, } from 'reactstrap';
-import CommonUtils from '../utils/CommonUtils';
+import CommonUtils from '../../utils/CommonUtils';
 import './home.css';
 
 const Home = () => {
@@ -46,7 +46,7 @@ const Home = () => {
 				</Col>
 				<Col xs={8} className="w-100 pr-5 pl-4">
 					<FormGroup>
-						<Label for="title" className="font-weight-bold">Title:</Label>
+						<Label for="title" className="font-weight-bold mt-3">Title:</Label>
 						<Input name="title" placeholder="Title of Notes"
 							value={title}
 							disabled
