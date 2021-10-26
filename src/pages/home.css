@@ -1,0 +1,36 @@
+  .notesContainer{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: block;
+      border: 1px solid lightgray;
+  }
+  .heading{
+      padding: 10px;
+      background-color:#f7f7f7;
+      border-bottom: 1px solid lightgray;
+  }
+  .leftBlock .active {
+    background-color: lightgray;
+  }
+  .leftBlock{
+    border-right: 1px solid lightgray;
+    max-height: 80vh;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  .leftBlockDetail{
+      border-bottom:1px solid lightgray;
+  }
+  .leftBlockDetail:hover{
+      background-color: lightgray;
+      cursor: pointer;
+  }
+
+  .leftBlockDetail .leftTitle{
+      font-size: 18px;
+      font-weight: 700;
+      color:black;
+  }
+  .leftBlockDetail .leftBody{
+    color: #666767;
+}
